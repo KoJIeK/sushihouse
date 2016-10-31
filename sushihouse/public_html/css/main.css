@@ -4,10 +4,53 @@
    Author's custom styles
    ========================================================================== */
 
-body{
-  background: #fff url("../images/bg.jpg") repeat fixed left top / 100% auto;  
-} 
+img {
+    height: auto;
+    max-width: 100%;}
 
+body{
+    background: #fff url("../images/bg.jpg") repeat fixed left top / 100% auto;  
+}
+.navbar-brand{
+    padding: 0;
+}
+
+/*----------------Slider-----------------------*/
+.container .carousel.slide .carousel-inner img{
+    width: 100%;    
+}
+.container .carousel.slide .carousel-inner {
+    margin-top: 10px;
+    max-height: 400px;  
+    margin-bottom: 20px;
+}
+/*----------------Slider-----------------------*/
+
+
+/*----------------for text main---------------*/
+.s3{
+    background-color: rgba(0, 0, 0, 0.5);
+
+    color: #fff;
+
+
+}
+/*----------------for text main---------------*/
+
+/* Not Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+   
+}
+@media only screen and (max-width : 993px){
+    
+}
+
+@media only screen and (max-width : 767px){
+    .navbar-brand img{
+    width: 260px;
+}
+   
+}
 
 
 
